@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "scripts": {
     "start": "\"npm run build\" \"npm run lite\" ",
-    "build": "tsc && concurrently \"npm run tsc:w\",
+    "build": "tsc",
     "lite": "lite-server",
     "postinstall": "typings install",
     "tsc": "tsc",
